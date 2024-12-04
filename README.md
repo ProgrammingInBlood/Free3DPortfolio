@@ -1,4 +1,4 @@
-# 🚀 Next.js Portfolio with 3D Elements
+# 🚀 Free 3D Portfolio Template
 
 A modern, interactive portfolio website built with Next.js 14, featuring a stunning 3D scene, smooth animations, and responsive design. Create your own professional portfolio in just 5 minutes by customizing the configuration!
 
@@ -6,8 +6,8 @@ A modern, interactive portfolio website built with Next.js 14, featuring a stunn
 
 1. **Clone & Install (1 minute)**
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/ProgrammingInBlood/Free3DPortfolio.git
+   cd Free3DPortfolio
    npm install
    ```
 
@@ -35,6 +35,12 @@ A modern, interactive portfolio website built with Next.js 14, featuring a stunn
    - Deploy on Vercel with one click
    - Your portfolio is live! 🎉
 
+## 🎯 One-Click Deploy
+
+Deploy your own portfolio to Vercel with one click:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ProgrammingInBlood/Free3DPortfolio)
+
 ## ✨ Key Features
 
 - 🎮 Interactive 3D Scene with Three.js
@@ -47,12 +53,6 @@ A modern, interactive portfolio website built with Next.js 14, featuring a stunn
 - 🔍 SEO Optimized
 - 🚄 Fast Loading & Performance
 
-## 🎯 One-Click Deploy
-
-Deploy your own portfolio to Vercel with one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/portfolio)
-
 ## 🛠️ Tech Stack
 
 - Next.js 14
@@ -62,29 +62,12 @@ Deploy your own portfolio to Vercel with one click:
 - Tailwind CSS
 - React Icons
 
-## 🚀 Getting Started
-
-1. **Clone & Install**
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
-   npm install
-   ```
-
-2. **Run Development Server**
-   ```bash
-   npm run dev
-   ```
-
-3. **Open Browser**
-   - Visit [http://localhost:3000](http://localhost:3000)
-
-## 📝 Configuration Overview
+## 📝 Configuration Guide
 
 All customization can be done in the `/config.ts` file. No coding required!
 
-### 1. Site Configuration (`/config.ts`)
-Update your personal information and social links:
+### 1. Site Configuration
+Update your personal information and social links in `config.ts`:
 ```typescript
 export const siteConfig = {
   title: 'Your Name | Portfolio',
@@ -100,69 +83,15 @@ export const siteConfig = {
 ```
 
 ### 2. Content Sections
-Each section is fully configurable:
+Each section is fully configurable in `config.ts`:
 - **Hero**: Your intro and CTAs
 - **About**: Your story and experience
 - **Skills**: Your tech stack
 - **Projects**: Your work showcase
 - **Contact**: Your contact form
 
-Just update the corresponding section in `config.ts`:
-```typescript
-export const heroSection = {
-  title: 'Your Headline',
-  subtitle: 'Your Catchphrase',
-  // ...
-};
-
-export const projectsSection = {
-  title: 'My Work',
-  projects: [
-    {
-      title: 'Project Name',
-      description: 'Project Description',
-      // ...
-    },
-    // Add more projects...
-  ]
-};
-```
-
-## 🎨 Customization Guide
-
-### 1. Site Configuration (`/config.ts`)
-
-```typescript
-export const siteConfig = {
-  title: 'Your Name | Portfolio',
-  description: 'Your portfolio description',
-  author: 'Your Name',
-  email: 'your.email@example.com',
-  socials: {
-    github: 'https://github.com/yourusername',
-    linkedin: 'https://linkedin.com/in/yourusername',
-    twitter: 'https://twitter.com/yourusername',
-  }
-};
-```
-
-### 2. Section Content (`/config.ts`)
-
-- **Hero Section**: Update title, subtitle, and CTA buttons
-- **About Section**: Modify description and stats
-- **Skills Section**: Add/remove technologies
-- **Projects Section**: Showcase your work
-- **Contact Section**: Customize contact form and info
-
-### 3. 3D Scene (`/components/Scene3DClient.tsx`)
-
-- Change 3D model
-- Adjust camera position
-- Modify lighting
-- Update animations
-
-### 4. 3D Scene Configuration (`/config.ts`)
-
+### 3. 3D Scene Configuration
+Customize the 3D scene in `config.ts`:
 ```typescript
 export const scene3DConfig = {
   // Camera settings
@@ -181,20 +110,6 @@ export const scene3DConfig = {
 };
 ```
 
-You can:
-- Add/remove floating tech icons
-- Customize icon colors
-- Adjust camera settings
-- Change background color
-- Modify animation parameters
-
-### 5. Styling
-
-- **Colors**: Edit `tailwind.config.js`
-- **Fonts**: Update in `app/layout.tsx`
-- **Spacing**: Modify padding/margin in components
-- **Animations**: Adjust Framer Motion settings
-
 ## 📁 Project Structure
 
 ```
@@ -210,39 +125,23 @@ portfolio/
 └── styles/         # Global styles
 ```
 
-## ⚡ Performance Tips
+## 🤝 Contributing
 
-1. **Image Optimization**
-   - Use Next.js Image component
-   - Compress images before import
-   - Use appropriate image formats
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-2. **3D Scene**
-   - Optimize 3D model file size
-   - Use proper pixel ratio
-   - Implement lazy loading
+## 📄 License
 
-3. **Code Splitting**
-   - Use dynamic imports
-   - Lazy load components
-   - Optimize bundle size
-
-## 🚀 Deployment
-
-1. **Build Project**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy Options**
-   - Vercel (Recommended)
-   - Netlify
-   - GitHub Pages
-
-## 📝 License
-
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🌟 Show Your Support
 
-If you found this project helpful, give it a ⭐️ on GitHub!
+If you find this template helpful, please give it a star on GitHub! ⭐️
+
+## 📧 Contact
+
+For any questions or feedback, please reach out to me:
+- GitHub: [@ProgrammingInBlood](https://github.com/ProgrammingInBlood)
+- Email: [your-email@example.com](mailto:your-email@example.com)
+
+---
+Made with ❤️ by [ProgrammingInBlood](https://github.com/ProgrammingInBlood)
