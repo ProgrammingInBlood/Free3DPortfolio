@@ -141,7 +141,7 @@ If you find this template helpful, please give it a star on GitHub! ⭐️
 
 For any questions or feedback, please reach out to me:
 - GitHub: [@ProgrammingInBlood](https://github.com/ProgrammingInBlood)
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [your-email@example.com](mailto:singheklavya@proton.me)
 
 ---
 Made with ❤️ by [ProgrammingInBlood](https://github.com/ProgrammingInBlood)
